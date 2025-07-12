@@ -29,7 +29,7 @@ export const Projects = () => {
       image: "photo-1517077304055-6e89abbf09b0",
       technologies: ["Java", "OOP", "Data Structures", "Algorithms", "Problem Solving"],
       github: "https://github.com/CSNegi27",
-      live: "#",
+      live: "https://github.com/CSNegi27/Encryptix-Java-Tasks",
       featured: false
     },
     {
