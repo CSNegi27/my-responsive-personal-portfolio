@@ -37,7 +37,7 @@ export const Contact = () => {
       icon: Mail,
       label: "Email",
       value: "chaitanyasnegi@gmail.com",
-      href: "mailto:chaitanyasnegi@gmail.com"
+      href: "https://mail.google.com/mail/?view=cm&to=chaitanyasnegi@gmail.com"
     },
     {
       icon: Phone,
@@ -56,7 +56,7 @@ export const Contact = () => {
   const socialLinks = [
     { icon: Github, href: "https://github.com/CSNegi27", label: "GitHub" },
     { icon: Linkedin, href: "https://www.linkedin.com/in/chaitanya-singh-negi-81a915288/", label: "LinkedIn" },
-    { icon: Mail, href: "mailto:chaitanyasnegi@gmail.com", label: "Email" }
+    { icon: Mail, href: "https://mail.google.com/mail/?view=cm&to=chaitanyasnegi@gmail.com", label: "Email" }
   ];
 
   return (

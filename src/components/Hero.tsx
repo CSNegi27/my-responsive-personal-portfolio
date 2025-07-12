@@ -87,7 +87,7 @@ export const Hero = () => {
               variant="ghost" 
               size="icon" 
               className="text-card hover:text-primary transition-colors"
-              onClick={() => window.open('mailto:chaitanyasnegi@gmail.com', '_blank')}
+              onClick={() => window.open('https://mail.google.com/mail/?view=cm&to=chaitanyasnegi@gmail.com', '_blank')}
             >
               <Mail className="w-6 h-6" />
             </Button>
