@@ -46,7 +46,7 @@ export const Projects = () => {
       description: "A clean and functional to-do list application built with PHP, demonstrating CRUD operations and database integration.",
       image: "photo-1484480974693-6ca0a78fb36b",
       technologies: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/CSNegi27",
+      github: "https://github.com/CSNegi27/Simple-To-Do-List",
       live: "#",
       featured: false
     }
