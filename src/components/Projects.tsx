@@ -15,10 +15,19 @@ export const Projects = () => {
       featured: true
     },
     {
-      title: "Music Player & Blogging Platform",
-      description: "Full-stack web application combining a music player with blogging functionality. Built with modern web technologies and responsive design.",
+      title: "Music Player Platform",
+      description: "Interactive music player web application with playlist management, audio controls, and responsive design. Features include play/pause, track navigation, volume control, and modern UI.",
       image: "photo-1493225457124-a3eb161ffa5f",
-      technologies: ["HTML", "CSS", "JavaScript", "PHP", "Bootstrap"],
+      technologies: ["HTML", "CSS", "JavaScript", "Web Audio API", "Bootstrap"],
+      github: "https://github.com/CSNegi27",
+      live: "#",
+      featured: true
+    },
+    {
+      title: "Blogging Platform",
+      description: "Full-featured blogging platform with content management system, user authentication, and dynamic content delivery. Built with modern web technologies for seamless writing experience.",
+      image: "photo-1488590528505-98d2b5aba04b",
+      technologies: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
       github: "https://github.com/CSNegi27",
       live: "#",
       featured: true
