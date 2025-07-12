@@ -86,19 +86,49 @@ export const Skills = () => {
                   year: "2023 - Present",
                   title: "B. Tech Information Technology",
                   company: "Netaji Subhas University of Technology, New Delhi",
-                  description: "3rd Year student with CGPA 8.16/10, focusing on modern programming languages and web technologies"
+                  description: "Currently pursuing 3rd year with CGPA 8.16/10, specializing in modern programming languages, web technologies, and software development"
                 },
                 {
-                  year: "Jun-Jul 2024",
-                  title: "AI & ML Training Programs",
-                  company: "Multiple Organizations",
-                  description: "Completed 6-week AI training with IBM SkillsBuild, NLP & Generative AI workshops, and various web development internships"
+                  year: "Jun-Jul 2025",
+                  title: "6-week AI Training Program",
+                  company: "Edunet Foundation & IBM SkillsBuild",
+                  description: "Comprehensive AI training program covering machine learning fundamentals, practical applications, and industry best practices"
+                },
+                {
+                  year: "Dec 2024",
+                  title: "NLP & Generative AI Workshop",
+                  company: "Professional Development",
+                  description: "Advanced workshop on Natural Language Processing and Generative AI technologies, exploring cutting-edge applications"
+                },
+                {
+                  year: "Aug-Sep 2024",
+                  title: "Full Stack Web Development",
+                  company: "6-week Back-end Development with ConnWell & Coding Raja Internship",
+                  description: "Intensive training in back-end web development, followed by front-end development internship focusing on practical project implementation"
+                },
+                {
+                  year: "Jul-Aug 2024",
+                  title: "Java Programming & Development",
+                  company: "4-week Programs with Encryptix & NetPreneur Courses",
+                  description: "Comprehensive Java programming training covering core concepts, OOP principles, and practical application development"
+                },
+                {
+                  year: "May-Jun 2024",
+                  title: "Software Development Internship",
+                  company: "KUCH FARZ HAMARA BHI (NGO)",
+                  description: "Real-world software development experience working on projects for social impact and community development"
+                },
+                {
+                  year: "2023",
+                  title: "Higher Secondary Education (12th)",
+                  company: "Central Board of Secondary Education",
+                  description: "Achieved 96% marks in Senior Secondary Examination, demonstrating exceptional academic performance in sciences and mathematics"
                 },
                 {
                   year: "2021",
-                  title: "Higher Secondary Education",
-                  company: "Central Board of Secondary Education",
-                  description: "Completed 12th grade with 96% marks, demonstrating strong academic foundation in sciences"
+                  title: "Secondary Education (10th)",
+                  company: "Central Board of Secondary Education", 
+                  description: "Secured 96.8% marks in Secondary Examination, establishing a strong foundation in core academic subjects"
                 }
               ].map((job, index) => (
                 <div key={index} className="relative flex items-start mb-8 animate-slide-up" style={{ animationDelay: `${index * 200}ms` }}>
@@ -114,6 +144,52 @@ export const Skills = () => {
                     </Card>
                   </div>
                 </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Achievements Section */}
+          <div className="mt-20">
+            <h3 className="text-3xl font-bold text-center mb-12 animate-fade-in">
+              Achievements & <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">Recognition</span>
+            </h3>
+            
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {[
+                {
+                  title: "Naukri Campus Young Turks",
+                  achievement: "99.83 Percentile",
+                  description: "Achieved exceptional performance ranking among thousands of participants in Round-1, securing Rank 9557",
+                  icon: "🏆",
+                  color: "from-yellow-500 to-orange-500"
+                },
+                {
+                  title: "InnoVortex 2.0 Participation",
+                  achievement: "Top Participant Certificate",
+                  description: "Recognized for outstanding participation and innovative thinking in technical competitions by TechNeeds GDTUW",
+                  icon: "🎯",
+                  color: "from-blue-500 to-purple-500"
+                },
+                {
+                  title: "ATF Stage-I Qualifier",
+                  achievement: "Top 4000 Selection",
+                  description: "Successfully cleared ATF Stage-I, being among top 4000 candidates selected from over 20,000+ applicants across India",
+                  icon: "🚀",
+                  color: "from-green-500 to-teal-500"
+                }
+              ].map((achievement, index) => (
+                <Card 
+                  key={index}
+                  className="bg-card/50 backdrop-blur-sm border-border/50 hover:shadow-elegant transition-all duration-300 hover:-translate-y-2 animate-scale-in group"
+                  style={{ animationDelay: `${index * 150}ms` }}
+                >
+                  <CardContent className="p-6 text-center">
+                    <div className="text-4xl mb-4">{achievement.icon}</div>
+                    <h4 className="text-xl font-bold mb-2">{achievement.title}</h4>
+                    <div className="text-primary font-semibold mb-3">{achievement.achievement}</div>
+                    <p className="text-sm text-muted-foreground leading-relaxed">{achievement.description}</p>
+                  </CardContent>
+                </Card>
               ))}
             </div>
           </div>
