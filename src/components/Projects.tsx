@@ -37,8 +37,8 @@ export const Projects = () => {
       description: "Collection of 3 basic Java programming projects demonstrating core Java concepts, data structures, and algorithm implementation.",
       image: "photo-1587620962725-abab7fe55159",
       technologies: ["Java", "OOP", "Data Structures", "Algorithms", "Problem Solving"],
-      github: "https://github.com/CSNegi27",
-      live: "https://github.com/CSNegi27/Encryptix-Java-Tasks",
+      github: "https://github.com/CSNegi27/Encryptix-Java-Tasks",
+      live: "#",
       featured: false
     },
     {
