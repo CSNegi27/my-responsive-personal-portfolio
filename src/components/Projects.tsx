@@ -29,7 +29,7 @@ export const Projects = () => {
       image: "photo-1499750310107-5fef28a66643",
       technologies: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
       github: "https://github.com/CSNegi27",
-      live: "#",
+      live: "https://my-blogging-platform-sigma.vercel.app/",
       featured: true
     },
     {
