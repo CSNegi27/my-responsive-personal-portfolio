@@ -17,7 +17,7 @@ export const Projects = () => {
     {
       title: "Music Player Platform",
       description: "Interactive music player web application with playlist management, audio controls, and responsive design. Features include play/pause, track navigation, volume control, and modern UI.",
-      image: "photo-1493612276216-ee3925520721",
+      image: "photo-1511671782779-c97d3d27a1d4",
       technologies: ["HTML", "CSS", "JavaScript", "Web Audio API", "Bootstrap"],
       github: "https://github.com/CSNegi27",
       live: "#",
