@@ -95,10 +95,10 @@ export const About = () => {
               <CardContent className="p-6">
                 <blockquote className="text-primary-foreground">
                   <p className="font-medium mb-2">
-                    "Code is like humor. When you have to explain it, it's bad."
+                    "Every expert was once a beginner. Every pro was once an amateur."
                   </p>
                   <footer className="text-primary-foreground/80 text-sm">
-                    — Cory House
+                    — Robin Sharma
                   </footer>
                 </blockquote>
               </CardContent>
