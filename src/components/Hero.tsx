@@ -54,7 +54,7 @@ export const Hero = () => {
             Currently pursuing B. Tech in IT with expertise in multiple programming languages and emerging technologies.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 animate-scale-in delay-300">
+          <div className="flex justify-center mb-12 animate-scale-in delay-300">
             <Button 
               variant="hero" 
               size="xl" 
@@ -63,16 +63,6 @@ export const Hero = () => {
             >
               View My Work
               <ChevronDown className="group-hover:translate-y-1 transition-transform" />
-            </Button>
-            
-            <Button 
-              variant="glass" 
-              size="xl"
-              className="group"
-              onClick={() => window.open('https://drive.google.com/file/d/1EV1_B_GS356o-lhCYsWe0FVIbaYOxPYN/view?usp=sharing', '_blank')}
-            >
-              <Download className="group-hover:scale-110 transition-transform" />
-              Download CV
             </Button>
           </div>
           
