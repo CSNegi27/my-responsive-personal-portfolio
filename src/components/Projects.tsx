@@ -129,7 +129,7 @@ export const Projects = () => {
                       ) : (
                         <Button variant="default" size="sm" disabled>
                           <ExternalLink className="w-4 h-4" />
-                          Demo Coming Soon
+                          Project Link
                         </Button>
                       )}
                     </div>
