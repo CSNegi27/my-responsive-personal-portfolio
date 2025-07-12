@@ -6,40 +6,40 @@ import { Github, ExternalLink, Star } from "lucide-react";
 export const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product management, shopping cart, and order processing.",
-      image: "photo-1556742049-0cfed4f6a45d",
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "Tailwind CSS"],
-      github: "https://github.com",
-      live: "https://demo.com",
+      title: "Employee Salary Prediction using ML",
+      description: "Machine Learning project that predicts employee salaries using various algorithms. Implemented data preprocessing, feature engineering, and model evaluation techniques.",
+      image: "photo-1551288049-bebda4e38f71",
+      technologies: ["Python", "Machine Learning", "Data Analysis", "Scikit-learn", "Pandas"],
+      github: "https://github.com/CSNegi27",
+      live: "#",
       featured: true
     },
     {
-      title: "Task Management App",
-      description: "A collaborative project management tool with real-time updates, team collaboration features, and intuitive drag-and-drop interface.",
-      image: "photo-1611224923853-80b023f02d71",
-      technologies: ["Vue.js", "Express", "Socket.io", "MongoDB", "AWS"],
-      github: "https://github.com",
-      live: "https://demo.com",
-      featured: false
-    },
-    {
-      title: "Weather Dashboard",
-      description: "A responsive weather application with location-based forecasts, interactive maps, and detailed weather analytics using modern APIs.",
-      image: "photo-1504608524841-42fe6f032b4b",
-      technologies: ["React", "TypeScript", "Chart.js", "OpenWeather API"],
-      github: "https://github.com",
-      live: "https://demo.com",
-      featured: false
-    },
-    {
-      title: "Social Media Analytics",
-      description: "A comprehensive dashboard for social media metrics with real-time data visualization, performance tracking, and automated reporting.",
-      image: "photo-1460925895917-afdab827c52f",
-      technologies: ["Next.js", "Python", "D3.js", "Redis", "Docker"],
-      github: "https://github.com",
-      live: "https://demo.com",
+      title: "Music Player & Blogging Platform",
+      description: "Full-stack web application combining a music player with blogging functionality. Built with modern web technologies and responsive design.",
+      image: "photo-1493225457124-a3eb161ffa5f",
+      technologies: ["HTML", "CSS", "JavaScript", "PHP", "Bootstrap"],
+      github: "https://github.com/CSNegi27",
+      live: "#",
       featured: true
+    },
+    {
+      title: "Java Programming Projects",
+      description: "Collection of 3 basic Java programming projects demonstrating core OOP concepts, data structures, and algorithm implementation.",
+      image: "photo-1517077304055-6e89abbf09b0",
+      technologies: ["Java", "OOP", "Data Structures", "Algorithms", "Problem Solving"],
+      github: "https://github.com/CSNegi27",
+      live: "#",
+      featured: false
+    },
+    {
+      title: "PHP Simple To-Do List",
+      description: "A clean and functional to-do list application built with PHP, demonstrating CRUD operations and database integration.",
+      image: "photo-1484480974693-6ca0a78fb36b",
+      technologies: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+      github: "https://github.com/CSNegi27",
+      live: "#",
+      featured: false
     }
   ];
 
@@ -48,10 +48,10 @@ export const Projects = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 animate-fade-in">
-            Featured <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">Projects</span>
+            Academic <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">Projects</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto animate-slide-up">
-            A showcase of my recent work and personal projects
+            Projects developed during internships, training programs, and academic coursework
           </p>
         </div>
 
@@ -107,14 +107,31 @@ export const Projects = () => {
                     </div>
                     
                     <div className="flex gap-4 pt-2">
-                      <Button variant="outline" size="sm" className="group">
+                     <Button 
+                        variant="outline" 
+                        size="sm" 
+                        className="group"
+                        onClick={() => window.open(project.github, '_blank')}
+                      >
                         <Github className="w-4 h-4 group-hover:scale-110 transition-transform" />
                         Code
                       </Button>
-                      <Button variant="default" size="sm" className="group">
-                        <ExternalLink className="w-4 h-4 group-hover:scale-110 transition-transform" />
-                        Live Demo
-                      </Button>
+                      {project.live !== "#" ? (
+                        <Button 
+                          variant="default" 
+                          size="sm" 
+                          className="group"
+                          onClick={() => window.open(project.live, '_blank')}
+                        >
+                          <ExternalLink className="w-4 h-4 group-hover:scale-110 transition-transform" />
+                          Live Demo
+                        </Button>
+                      ) : (
+                        <Button variant="default" size="sm" disabled>
+                          <ExternalLink className="w-4 h-4" />
+                          Demo Coming Soon
+                        </Button>
+                      )}
                     </div>
                   </CardContent>
                 </div>
@@ -128,12 +145,17 @@ export const Projects = () => {
           <Card className="bg-gradient-primary border-0 inline-block animate-fade-in">
             <CardContent className="p-8">
               <h3 className="text-2xl font-bold text-primary-foreground mb-4">
-                Want to see more?
+                Interested in collaboration?
               </h3>
               <p className="text-primary-foreground/80 mb-6">
-                Check out my GitHub for more projects and contributions
+                I'm always eager to learn and contribute to exciting projects and opportunities.
               </p>
-              <Button variant="secondary" size="lg" className="group">
+              <Button 
+                variant="secondary" 
+                size="lg" 
+                className="group"
+                onClick={() => window.open('https://github.com/CSNegi27', '_blank')}
+              >
                 <Github className="group-hover:scale-110 transition-transform" />
                 Visit GitHub
               </Button>

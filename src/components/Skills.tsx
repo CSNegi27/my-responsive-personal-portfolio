@@ -4,27 +4,27 @@ import { Badge } from "@/components/ui/badge";
 export const Skills = () => {
   const skillCategories = [
     {
-      title: "Frontend",
-      icon: "🎨",
-      skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Vue.js", "SASS"],
+      title: "Programming Languages",
+      icon: "💻",
+      skills: ["Java", "C++", "JavaScript", "PHP", "HTML", "CSS"],
       color: "from-blue-500 to-purple-600"
     },
     {
-      title: "Backend",
-      icon: "⚙️",
-      skills: ["Node.js", "Express", "Python", "PostgreSQL", "MongoDB", "Redis"],
+      title: "Web Technologies",
+      icon: "🌐",
+      skills: ["Laravel", "Bootstrap", "Data Structures", "Algorithms", "REST APIs", "Web Development"],
       color: "from-green-500 to-teal-600"
     },
     {
-      title: "Tools & DevOps",
-      icon: "🛠️",
-      skills: ["Git", "Docker", "AWS", "Vercel", "Figma", "Postman"],
+      title: "Specializations",
+      icon: "🚀",
+      skills: ["Machine Learning", "Artificial Intelligence", "NLP", "Competitive Programming", "Software Development"],
       color: "from-orange-500 to-red-600"
     },
     {
-      title: "Soft Skills",
-      icon: "🤝",
-      skills: ["Problem Solving", "Team Leadership", "Communication", "Agile", "Mentoring", "Code Review"],
+      title: "Academic Excellence",
+      icon: "🎓",
+      skills: ["Problem Solving", "Algorithm Design", "Project Management", "Research & Development"],
       color: "from-purple-500 to-pink-600"
     }
   ];
@@ -73,7 +73,7 @@ export const Skills = () => {
         {/* Experience Timeline */}
         <div className="mt-20">
           <h3 className="text-3xl font-bold text-center mb-12 animate-fade-in">
-            Professional Journey
+            Education & Training Journey
           </h3>
           
           <div className="max-w-3xl mx-auto">
@@ -83,22 +83,22 @@ export const Skills = () => {
               
               {[
                 {
-                  year: "2024 - Present",
-                  title: "Senior Full Stack Developer",
-                  company: "TechCorp Inc.",
-                  description: "Leading development of enterprise web applications using React and Node.js"
+                  year: "2023 - Present",
+                  title: "B. Tech Information Technology",
+                  company: "Netaji Subhas University of Technology, New Delhi",
+                  description: "3rd Year student with CGPA 8.16/10, focusing on modern programming languages and web technologies"
                 },
                 {
-                  year: "2022 - 2024",
-                  title: "Full Stack Developer",
-                  company: "StartupXYZ",
-                  description: "Built and maintained multiple client applications with modern web technologies"
+                  year: "Jun-Jul 2024",
+                  title: "AI & ML Training Programs",
+                  company: "Multiple Organizations",
+                  description: "Completed 6-week AI training with IBM SkillsBuild, NLP & Generative AI workshops, and various web development internships"
                 },
                 {
-                  year: "2021 - 2022",
-                  title: "Frontend Developer",
-                  company: "WebAgency",
-                  description: "Specialized in creating responsive, user-friendly interfaces for various clients"
+                  year: "2021",
+                  title: "Higher Secondary Education",
+                  company: "Central Board of Secondary Education",
+                  description: "Completed 12th grade with 96% marks, demonstrating strong academic foundation in sciences"
                 }
               ].map((job, index) => (
                 <div key={index} className="relative flex items-start mb-8 animate-slide-up" style={{ animationDelay: `${index * 200}ms` }}>

@@ -36,27 +36,27 @@ export const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "alex@example.com",
-      href: "mailto:alex@example.com"
+      value: "chaitanyanegi@gmail.com",
+      href: "mailto:chaitanyanegi@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+91 8800872518",
+      href: "tel:+918800872518"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "New Delhi, India",
       href: "#"
     }
   ];
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: Twitter, href: "https://twitter.com", label: "Twitter" }
+    { icon: Github, href: "https://github.com/CSNegi27", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/chaitanya-singh-negi-81a915288/", label: "LinkedIn" },
+    { icon: Mail, href: "mailto:chaitanyanegi@gmail.com", label: "Email" }
   ];
 
   return (
@@ -67,7 +67,7 @@ export const Contact = () => {
             Get In <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">Touch</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto animate-slide-up">
-            Have a project in mind? Let's work together to bring your ideas to life
+            Interested in collaboration or have questions about my projects? I'd love to connect and discuss opportunities.
           </p>
         </div>
 
@@ -142,8 +142,8 @@ export const Contact = () => {
                   Let's Connect
                 </h3>
                 <p className="text-primary-foreground/80 mb-8 leading-relaxed">
-                  I'm always interested in new opportunities and exciting projects. 
-                  Whether you have a question or just want to say hi, feel free to reach out!
+                  I'm a passionate student always eager to learn and contribute to innovative projects. 
+                  Whether you have internship opportunities, project collaborations, or just want to connect, feel free to reach out!
                 </p>
                 
                 <div className="space-y-6">
@@ -197,7 +197,7 @@ export const Contact = () => {
                   <span className="font-medium">Available for new projects</span>
                 </div>
                 <p className="text-sm text-muted-foreground mt-2">
-                  Currently accepting new freelance and full-time opportunities
+                  Open to internships, projects, and learning opportunities
                 </p>
               </CardContent>
             </Card>

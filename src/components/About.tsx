@@ -4,42 +4,42 @@ import { Download, MapPin, Calendar, Coffee } from "lucide-react";
 
 export const About = () => {
   const stats = [
-    { icon: Calendar, label: "Years Experience", value: "3+" },
-    { icon: Coffee, label: "Projects Completed", value: "50+" },
-    { icon: MapPin, label: "Based In", value: "San Francisco" },
+    { icon: Calendar, label: "Current Year", value: "3rd Year" },
+    { icon: Coffee, label: "CGPA", value: "8.16/10" },
+    { icon: MapPin, label: "Based In", value: "New Delhi" },
   ];
 
   return (
     <section id="about" className="py-20 bg-gradient-secondary">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 animate-fade-in">
-            About <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">Me</span>
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto animate-slide-up">
-            Passionate developer with a love for creating digital experiences that matter
-          </p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 animate-fade-in">
+              About <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">Me</span>
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto animate-slide-up">
+              B. Tech student passionate about technology, competitive programming, and building innovative solutions
+            </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="animate-slide-up">
-            <h3 className="text-2xl font-bold mb-6">Hello! I'm Alex Johnson</h3>
+            <h3 className="text-2xl font-bold mb-6">Hello! I'm Chaitanya Singh Negi</h3>
             <div className="space-y-4 text-muted-foreground mb-8">
               <p>
-                I'm a passionate full-stack developer with over 3 years of experience building 
-                modern web applications. My journey in tech started during college where I 
-                discovered my love for solving complex problems through code.
+                I'm a passionate 3rd year B. Tech student in Information Technology at Netaji Subhas 
+                University of Technology, New Delhi. My journey in tech started with academic excellence, 
+                maintaining a strong CGPA of 8.16/10 while exploring various domains of technology.
               </p>
               <p>
-                I specialize in React, Node.js, and TypeScript, creating scalable applications 
-                that provide exceptional user experiences. I'm constantly learning new technologies 
-                and best practices to stay at the forefront of web development.
+                I specialize in Java, C++, and web technologies including HTML, CSS, JavaScript, PHP, 
+                and Laravel. Through multiple internships and training programs, I've gained hands-on 
+                experience in AI, machine learning, and full-stack web development.
               </p>
               <p>
-                When I'm not coding, you can find me contributing to open-source projects, 
-                writing technical blogs, or exploring the latest design trends. I believe in 
-                clean code, continuous learning, and collaborative development.
+                I'm actively involved in competitive programming and have achieved top rankings in 
+                algorithmic competitions. I believe in continuous learning and applying theoretical 
+                knowledge to real-world projects and challenges.
               </p>
             </div>
             

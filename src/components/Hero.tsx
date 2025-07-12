@@ -41,17 +41,17 @@ export const Hero = () => {
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-slide-up">
             <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
-              Alex Johnson
+              Chaitanya Singh Negi
             </span>
           </h1>
           
           <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-card animate-slide-up delay-100">
-            Full Stack Developer
+            Information Technology Student
           </h2>
           
           <p className="text-lg md:text-xl text-card/80 mb-12 max-w-2xl mx-auto leading-relaxed animate-slide-up delay-200">
-            Crafting beautiful, responsive web applications with modern technologies. 
-            I bring ideas to life through clean code and intuitive user experiences.
+            Passionate about technology, competitive programming, and building innovative solutions. 
+            Currently pursuing B. Tech in IT with expertise in multiple programming languages and emerging technologies.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 animate-scale-in delay-300">
@@ -76,13 +76,28 @@ export const Hero = () => {
           </div>
           
           <div className="flex justify-center gap-6 animate-fade-in delay-500">
-            <Button variant="ghost" size="icon" className="text-card hover:text-primary transition-colors">
+            <Button 
+              variant="ghost" 
+              size="icon" 
+              className="text-card hover:text-primary transition-colors"
+              onClick={() => window.open('https://github.com/CSNegi27', '_blank')}
+            >
               <Github className="w-6 h-6" />
             </Button>
-            <Button variant="ghost" size="icon" className="text-card hover:text-primary transition-colors">
+            <Button 
+              variant="ghost" 
+              size="icon" 
+              className="text-card hover:text-primary transition-colors"
+              onClick={() => window.open('https://www.linkedin.com/in/chaitanya-singh-negi-81a915288/', '_blank')}
+            >
               <Linkedin className="w-6 h-6" />
             </Button>
-            <Button variant="ghost" size="icon" className="text-card hover:text-primary transition-colors">
+            <Button 
+              variant="ghost" 
+              size="icon" 
+              className="text-card hover:text-primary transition-colors"
+              onClick={() => window.open('mailto:chaitanyanegi@gmail.com', '_blank')}
+            >
               <Mail className="w-6 h-6" />
             </Button>
           </div>
