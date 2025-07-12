@@ -28,7 +28,7 @@ export const Projects = () => {
       description: "Full-featured blogging platform with content management system, user authentication, and dynamic content delivery. Built with modern web technologies for seamless writing experience.",
       image: "photo-1499750310107-5fef28a66643",
       technologies: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/CSNegi27",
+      github: "https://github.com/CSNegi27/MyBloggingPlatform",
       live: "https://my-blogging-platform-sigma.vercel.app/",
       featured: true
     },
