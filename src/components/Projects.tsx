@@ -26,7 +26,7 @@ export const Projects = () => {
     {
       title: "Blogging Platform",
       description: "Full-featured blogging platform with content management system, user authentication, and dynamic content delivery. Built with modern web technologies for seamless writing experience.",
-      image: "photo-1488590528505-98d2b5aba04b",
+      image: "photo-1486312338219-ce68d2c6f44d",
       technologies: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
       github: "https://github.com/CSNegi27",
       live: "#",
