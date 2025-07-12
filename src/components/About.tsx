@@ -22,9 +22,18 @@ export const About = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Content */}
+          {/* Profile Picture and Content */}
           <div className="animate-slide-up">
-            <h3 className="text-2xl font-bold mb-6">Hello! I'm Chaitanya Singh Negi</h3>
+            <div className="flex flex-col items-center lg:items-start mb-8">
+              <div className="w-48 h-48 rounded-full overflow-hidden mb-6 ring-4 ring-primary/20 shadow-glow">
+                <img 
+                  src="/lovable-uploads/92a77d82-b1ea-48f5-9662-782468f4ff51.png" 
+                  alt="Chaitanya Singh Negi" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h3 className="text-2xl font-bold mb-6">Hello! I'm Chaitanya Singh Negi</h3>
+            </div>
             <div className="space-y-4 text-muted-foreground mb-8">
               <p>
                 I'm a passionate 3rd year B. Tech student in Information Technology at Netaji Subhas 

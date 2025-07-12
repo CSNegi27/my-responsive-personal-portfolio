@@ -40,7 +40,7 @@ export const Hero = () => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-slide-up">
-            <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
+            <span className="text-white drop-shadow-lg">
               Chaitanya Singh Negi
             </span>
           </h1>
