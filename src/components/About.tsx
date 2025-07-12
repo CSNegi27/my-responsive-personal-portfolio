@@ -62,7 +62,11 @@ export const About = () => {
                 <Download className="group-hover:scale-110 transition-transform" />
                 Download Resume
               </Button>
-              <Button variant="outline" size="lg">
+              <Button 
+                variant="outline" 
+                size="lg"
+                onClick={() => window.open('https://www.linkedin.com/in/chaitanya-singh-negi-81a915288/', '_blank')}
+              >
                 Let's Connect
               </Button>
             </div>
