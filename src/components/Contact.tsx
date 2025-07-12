@@ -49,7 +49,7 @@ export const Contact = () => {
       icon: MapPin,
       label: "Location",
       value: "New Delhi, India",
-      href: "#"
+      href: "https://www.google.com/maps/search/?api=1&query=Dwarka,+Delhi,+India"
     }
   ];
 
