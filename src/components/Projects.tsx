@@ -19,7 +19,7 @@ export const Projects = () => {
       description: "Interactive music player web application with playlist management, audio controls, and responsive design. Features include play/pause, track navigation, volume control, and modern UI.",
       image: "photo-1511671782779-c97d3d27a1d4",
       technologies: ["HTML", "CSS", "JavaScript", "Web Audio API", "Bootstrap"],
-      github: "https://github.com/CSNegi27",
+      github: "https://github.com/CSNegi27/Coding-Raja-Internships",
       live: "https://my-musicplayer-orpin.vercel.app/",
       featured: true
     },
