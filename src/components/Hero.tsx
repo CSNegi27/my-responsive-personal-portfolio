@@ -29,7 +29,7 @@ export const Hero = () => {
       {/* Main content */}
       <div className="relative z-10 container mx-auto px-6 text-center">
         <div className="animate-fade-in">
-          <div className="mb-8">
+          <div className="mb-8 mt-20">
             <div className="inline-block p-1 bg-gradient-primary rounded-full mb-6">
               <div className="bg-card px-6 py-2 rounded-full">
                 <span className="text-sm font-medium text-muted-foreground">
