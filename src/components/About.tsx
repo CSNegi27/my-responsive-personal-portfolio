@@ -53,7 +53,12 @@ export const About = () => {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="gradient" size="lg" className="group">
+              <Button 
+                variant="gradient" 
+                size="lg" 
+                className="group"
+                onClick={() => window.open('https://drive.google.com/file/d/1EV1_B_GS356o-lhCYsWe0FVIbaYOxPYN/view?usp=sharing', '_blank')}
+              >
                 <Download className="group-hover:scale-110 transition-transform" />
                 Download Resume
               </Button>
