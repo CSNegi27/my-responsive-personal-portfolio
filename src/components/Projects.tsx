@@ -17,7 +17,7 @@ export const Projects = () => {
     {
       title: "Music Player Platform",
       description: "Interactive music player web application with playlist management, audio controls, and responsive design. Features include play/pause, track navigation, volume control, and modern UI.",
-      image: "photo-1493225457124-a3eb161ffa5f",
+      image: "photo-1493612276216-ee3925520721",
       technologies: ["HTML", "CSS", "JavaScript", "Web Audio API", "Bootstrap"],
       github: "https://github.com/CSNegi27",
       live: "#",
@@ -26,7 +26,7 @@ export const Projects = () => {
     {
       title: "Blogging Platform",
       description: "Full-featured blogging platform with content management system, user authentication, and dynamic content delivery. Built with modern web technologies for seamless writing experience.",
-      image: "photo-1486312338219-ce68d2c6f44d",
+      image: "photo-1455390582262-044cdead277a",
       technologies: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
       github: "https://github.com/CSNegi27",
       live: "#",
