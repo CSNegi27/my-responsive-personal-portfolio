@@ -125,7 +125,7 @@ export const Projects = () => {
                         <Github className="w-4 h-4 group-hover:scale-110 transition-transform" />
                         Code
                       </Button>
-                      {project.live !== "#" ? (
+                      {project.live !== "#" && (
                         <Button 
                           variant="default" 
                           size="sm" 
@@ -134,11 +134,6 @@ export const Projects = () => {
                         >
                           <ExternalLink className="w-4 h-4 group-hover:scale-110 transition-transform" />
                           Live Demo
-                        </Button>
-                      ) : (
-                        <Button variant="default" size="sm" disabled>
-                          <ExternalLink className="w-4 h-4" />
-                          Project Link
                         </Button>
                       )}
                     </div>
