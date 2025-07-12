@@ -20,7 +20,7 @@ export const Projects = () => {
       image: "photo-1511671782779-c97d3d27a1d4",
       technologies: ["HTML", "CSS", "JavaScript", "Web Audio API", "Bootstrap"],
       github: "https://github.com/CSNegi27",
-      live: "#",
+      live: "https://my-musicplayer-orpin.vercel.app/",
       featured: true
     },
     {
