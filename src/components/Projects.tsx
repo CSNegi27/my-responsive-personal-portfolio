@@ -25,7 +25,7 @@ export const Projects = () => {
     },
     {
       title: "Java Programming Projects",
-      description: "Collection of 3 basic Java programming projects demonstrating core OOP concepts, data structures, and algorithm implementation.",
+      description: "Collection of 3 basic Java programming projects demonstrating core Java concepts, data structures, and algorithm implementation.",
       image: "photo-1517077304055-6e89abbf09b0",
       technologies: ["Java", "OOP", "Data Structures", "Algorithms", "Problem Solving"],
       github: "https://github.com/CSNegi27",
