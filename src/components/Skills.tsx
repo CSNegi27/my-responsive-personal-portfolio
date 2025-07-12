@@ -1,5 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Github, ExternalLink } from "lucide-react";
 
 export const Skills = () => {
   const skillCategories = [
@@ -168,7 +170,9 @@ export const Skills = () => {
                   achievement: "Top Participant Certificate",
                   description: "Recognized for outstanding participation and innovative thinking in technical competitions by TechNeeds GDTUW",
                   icon: "🎯",
-                  color: "from-blue-500 to-purple-500"
+                  color: "from-blue-500 to-purple-500",
+                  github: "https://github.com/CSNegi27/InnoVortex-2.0-REIMAGINE-",
+                  live: "https://orflaxindia.vercel.app/"
                 },
                 {
                   title: "ATF Stage-I Qualifier",
@@ -187,7 +191,31 @@ export const Skills = () => {
                     <div className="text-4xl mb-4">{achievement.icon}</div>
                     <h4 className="text-xl font-bold mb-2">{achievement.title}</h4>
                     <div className="text-primary font-semibold mb-3">{achievement.achievement}</div>
-                    <p className="text-sm text-muted-foreground leading-relaxed">{achievement.description}</p>
+                    <p className="text-sm text-muted-foreground leading-relaxed mb-4">{achievement.description}</p>
+                    
+                    {/* Project Links for InnoVortex 2.0 */}
+                    {achievement.github && achievement.live && (
+                      <div className="flex gap-3 justify-center">
+                        <Button 
+                          variant="outline" 
+                          size="sm" 
+                          className="group"
+                          onClick={() => window.open(achievement.github, '_blank')}
+                        >
+                          <Github className="w-4 h-4 group-hover:scale-110 transition-transform" />
+                          Code
+                        </Button>
+                        <Button 
+                          variant="default" 
+                          size="sm" 
+                          className="group"
+                          onClick={() => window.open(achievement.live, '_blank')}
+                        >
+                          <ExternalLink className="w-4 h-4 group-hover:scale-110 transition-transform" />
+                          Live Demo
+                        </Button>
+                      </div>
+                    )}
                   </CardContent>
                 </Card>
               ))}
