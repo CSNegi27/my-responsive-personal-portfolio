@@ -6,7 +6,7 @@ export const About = () => {
   const stats = [
     { icon: Calendar, label: "Current Year", value: "3rd Year" },
     { icon: Coffee, label: "CGPA", value: "8.16/10" },
-    { icon: MapPin, label: "Based In", value: "New Delhi" },
+    { icon: MapPin, label: "Based In", value: "Dwarka, New Delhi, India" },
   ];
 
   return (
