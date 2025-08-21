@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Github, ExternalLink, Star, FileText } from "lucide-react";
+import { Github, ExternalLink, Star, FileText, Database } from "lucide-react";
 
 export const Projects = () => {
   const projects = [
@@ -11,6 +11,7 @@ export const Projects = () => {
       image: "photo-1551288049-bebda4e38f71",
       technologies: ["Python", "Machine Learning", "Data Analysis", "Scikit-learn", "Pandas"],
       ppt: "https://docs.google.com/presentation/d/1hHM4r4rnscNt6wNFsAoVJxSRFm9XLk3T/edit?usp=sharing&ouid=104221815074309847168&rtpof=true&sd=true",
+      csv: "https://drive.google.com/file/d/1k6KS9wJlxTVLQROlfDkTFRC8btSqQB0B/view?usp=sharing",
       live: "https://drive.google.com/file/d/1N4619aBzDRWmz0ffpLGFZwhKUIjtysII/view?usp=sharing",
       featured: true
     },
@@ -135,6 +136,17 @@ export const Projects = () => {
                         >
                           <Github className="w-4 h-4 group-hover:scale-110 transition-transform" />
                           Code
+                        </Button>
+                      )}
+                      {project.csv && (
+                        <Button 
+                          variant="outline" 
+                          size="sm" 
+                          className="group"
+                          onClick={() => window.open(project.csv, '_blank')}
+                        >
+                          <Database className="w-4 h-4 group-hover:scale-110 transition-transform" />
+                          Dataset
                         </Button>
                       )}
                       {project.live !== "#" && (
