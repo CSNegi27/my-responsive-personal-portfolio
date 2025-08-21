@@ -57,7 +57,7 @@ export const About = () => {
                 variant="gradient" 
                 size="lg" 
                 className="group"
-                onClick={() => window.open('https://drive.google.com/file/d/1o8uzB0KFabdAhpnVjrLUuuQxWT4GrK0k/view?usp=sharing', '_blank')}
+                onClick={() => window.open('https://drive.google.com/file/d/1uxSnbCIFdLG9DhqhsdJdE5vqL13qjO5I/view?usp=sharing', '_blank')}
               >
                 <Download className="group-hover:scale-110 transition-transform" />
                 Download Resume
