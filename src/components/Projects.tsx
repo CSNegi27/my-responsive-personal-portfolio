@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Github, ExternalLink, Star } from "lucide-react";
+import { Github, ExternalLink, Star, FileText } from "lucide-react";
 
 export const Projects = () => {
   const projects = [
@@ -10,7 +10,7 @@ export const Projects = () => {
       description: "Machine Learning project that predicts employee salaries using various algorithms. Implemented data preprocessing, feature engineering, and model evaluation techniques.",
       image: "photo-1551288049-bebda4e38f71",
       technologies: ["Python", "Machine Learning", "Data Analysis", "Scikit-learn", "Pandas"],
-      github: "https://github.com/CSNegi27",
+      ppt: "https://docs.google.com/presentation/d/1hHM4r4rnscNt6wNFsAoVJxSRFm9XLk3T/edit?usp=sharing&ouid=104221815074309847168&rtpof=true&sd=true",
       live: "https://drive.google.com/file/d/1N4619aBzDRWmz0ffpLGFZwhKUIjtysII/view?usp=sharing",
       featured: true
     },
@@ -116,15 +116,27 @@ export const Projects = () => {
                     </div>
                     
                     <div className="flex gap-4 pt-2">
-                     <Button 
-                        variant="outline" 
-                        size="sm" 
-                        className="group"
-                        onClick={() => window.open(project.github, '_blank')}
-                      >
-                        <Github className="w-4 h-4 group-hover:scale-110 transition-transform" />
-                        Code
-                      </Button>
+                      {project.ppt ? (
+                        <Button 
+                          variant="outline" 
+                          size="sm" 
+                          className="group"
+                          onClick={() => window.open(project.ppt, '_blank')}
+                        >
+                          <FileText className="w-4 h-4 group-hover:scale-110 transition-transform" />
+                          Presentation
+                        </Button>
+                      ) : (
+                        <Button 
+                          variant="outline" 
+                          size="sm" 
+                          className="group"
+                          onClick={() => window.open(project.github, '_blank')}
+                        >
+                          <Github className="w-4 h-4 group-hover:scale-110 transition-transform" />
+                          Code
+                        </Button>
+                      )}
                       {project.live !== "#" && (
                         <Button 
                           variant="default" 
