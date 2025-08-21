@@ -11,7 +11,7 @@ export const Projects = () => {
       image: "photo-1551288049-bebda4e38f71",
       technologies: ["Python", "Machine Learning", "Data Analysis", "Scikit-learn", "Pandas"],
       github: "https://github.com/CSNegi27",
-      live: "#",
+      live: "https://drive.google.com/file/d/1N4619aBzDRWmz0ffpLGFZwhKUIjtysII/view?usp=sharing",
       featured: true
     },
     {
